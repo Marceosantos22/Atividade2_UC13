@@ -1,4 +1,4 @@
-![wire-ativ3-1](https://github.com/Marceosantos22/Atividade2_UC13/assets/119744462/f91edfb0-7a0f-4163-bbc3-9719ea41207a)# Atividade2_UC13
+### Atividade2_UC13
 
 ### Atividade 3
  
