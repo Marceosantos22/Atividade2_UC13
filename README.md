@@ -1,45 +1,21 @@
-### Atividade2_UC13
-
-### Atividade 3
+### Atividade 2
  
 ### Contexto
-Em outro projeto da empresa na qual você trabalha, você precisará usar seus conhecimentos em Javascript para implementar o comportamento de uma página de pagamento de um site de compras. Será possível pagar com Pix ou cartão de crédito e a página deverá se comportar adequadamente, mostrando os campos necessários e o valor calculado corretamente, já que há descontos ou juros aplicados em cada caso.
+Seguindo com a produção do website iniciado na Atividade 1, crie a página HTML que corresponda aos layouts desenhados nos wireframes. Utilize imagens livres disponíveis na Internet para compor o site. Essas imagens e o esquema de cores devem estar condizentes com o ramo de negócio escolhido. Adaptações pontuais podem ser feitas com relação ao wireframe original e comportamentos dinâmicos, como carrosséis, não precisam ser implementados (apenas representados).
  
 ### Atividade
-Observe os wireframes a seguir. Eles mostram a página com a opção Pix selecionada e com a opção Cartão de crédito selecionada.
-
- 
- ![Wireframe 01]([[https://senac.blackboard.com/bbcswebdav/pid-10120820-dt-content-rid-279170401_1/xid-279170401_1](https://senac.blackboard.com/bbcswebdav/pid-10120820-dt-content-rid-279169800_1/xid-279169800_1)](https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/638e5f8fa10ff/39593497?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1694574000000&X-Blackboard-Signature=lI4O08475l2U5SSVsrgkZfsuiASXF8E76N6GmEXyXeM%3D&X-Blackboard-Client-Id=306527&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27wire-ativ3-2.png&response-content-type=image%2Fpng&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLWVhc3QtMSJIMEYCIQCE93JZuufCco9XMVkWZNR2WYIxv%2FcdOEEItywfeJUmUAIhAOcv2K%2Fyv9F87DMGiZfdmoBdP9eBkz05xdArRAcDqOYjKrMFCB8QAxoMNjM1NTY3OTI0MTgzIgzXmc9Zm4c9G0JdwtIqkAX64TJwWZ47CLIY%2BG98omvjNdzgLNdT%2FNCaa3kUc%2FC9o2FD1nkMkHu%2FVnUHlTmkIOYZqBy%2BUm30kKWF3k0a3a2pCqXdkkycjrdDZM9N9IhkArn4cp7Vhfl3ao8ybxJZrHOU38mdMWgtXiDobE2R%2BXxBgBD273px8bU4Qmnuhjzgg9WuWCyp57chWdkMm%2Fet2SKwke1AkF95m6pIH124mNJ9Qm2Oty2h4a22B5SWf5m2GYoYOlSX9bNWaF1Y5mNd1lfLpHyMymaC7jV5iLAscXddzJXjyj7USQlwEA5b7JWLcr4kn7Xr8KWkyI8yp8BjAAmTU6dnY8YmzWHYSyyTF1wmbmGwyu4Fy0MqbKNIBfq0k%2FF2VCVxwhdTOR%2F6xxFZ4WJhjkfFtN4ttPnMzkvnkHFCFKJXpxfRQvFImWW8FV6ocAE%2BEtIxPZHeebb4S8q%2BsSA4B7ebZPwq8CpbEPBxNRfCzbrGf2DhTfhn%2BXWg5CEuJJfmgxHdUt2Xzalq%2BJcFgUJ13PGmBleGrzH4vPqc85kySkX0okWbD2NEp8EE0CxkuQrL4F1OGNGlNbWOKBYKVtbAn0uHnr3EUgp8CocTuy%2BD9Bn226Qlh%2BqkBDBLAk%2Bx07VrwOdJgTturi4yK%2FweLC4ForWwB%2Fw5fkfxH%2BQlqctP5YHByCcPb5DHebuamJEmfYskbauzB2Ut4nt8yg%2FTUSRcrfO%2BL7kVxQkWnsapGTGabV5S%2F%2BXGviLYlL6M7igNQvbEnqezyDglBrnBZDVZfDjlPfSS0omiML8zbgjLKCqqJCiT2FU9PlYil5Cxi%2BmMO272sXnhzI4XRh35WDMEOoQDMAiG69FSFWkS0UcvJ2DfMkNWxddvy%2FkLfI5KSHyGwzCBr4OoBjqwAYfNTMW23xV9UV1dwIR4d4gmE9b%2BhmLv%2BYTETjjNf8dN3Et5HmDCPnvSp%2BTEl0o42mfK7OrkNACpvYNxpB4BXYewAVrYSYvKJs56orWv0YoFtW%2B8FChsRuzp5a5FfrUdX6%2FBsNQEekm32YxXQU8NimdTp6SgOBo2jzcGbrSD2GIIoaU%2Bl25yE%2F7tjBNnfb1jJ0dynsrkdAtIKxuXjINboF8ScZ6q3LkR%2B8e5hmblqh94&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230912T210000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PL5VPEVCAF%2F20230912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c5cbbf59b74c4804669a8809b7f60349de93fbe23730c7e441a246f35b778a31))
-
-
- 
- ![Wireframe 02]([https://senac.blackboard.com/bbcswebdav/pid-10120820-dt-content-rid-279170401_1/xid-279170401_1](https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/638e5f8fa10ff/39593497?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1694574000000&X-Blackboard-Signature=lI4O08475l2U5SSVsrgkZfsuiASXF8E76N6GmEXyXeM%3D&X-Blackboard-Client-Id=306527&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27wire-ativ3-2.png&response-content-type=image%2Fpng&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLWVhc3QtMSJIMEYCIQCE93JZuufCco9XMVkWZNR2WYIxv%2FcdOEEItywfeJUmUAIhAOcv2K%2Fyv9F87DMGiZfdmoBdP9eBkz05xdArRAcDqOYjKrMFCB8QAxoMNjM1NTY3OTI0MTgzIgzXmc9Zm4c9G0JdwtIqkAX64TJwWZ47CLIY%2BG98omvjNdzgLNdT%2FNCaa3kUc%2FC9o2FD1nkMkHu%2FVnUHlTmkIOYZqBy%2BUm30kKWF3k0a3a2pCqXdkkycjrdDZM9N9IhkArn4cp7Vhfl3ao8ybxJZrHOU38mdMWgtXiDobE2R%2BXxBgBD273px8bU4Qmnuhjzgg9WuWCyp57chWdkMm%2Fet2SKwke1AkF95m6pIH124mNJ9Qm2Oty2h4a22B5SWf5m2GYoYOlSX9bNWaF1Y5mNd1lfLpHyMymaC7jV5iLAscXddzJXjyj7USQlwEA5b7JWLcr4kn7Xr8KWkyI8yp8BjAAmTU6dnY8YmzWHYSyyTF1wmbmGwyu4Fy0MqbKNIBfq0k%2FF2VCVxwhdTOR%2F6xxFZ4WJhjkfFtN4ttPnMzkvnkHFCFKJXpxfRQvFImWW8FV6ocAE%2BEtIxPZHeebb4S8q%2BsSA4B7ebZPwq8CpbEPBxNRfCzbrGf2DhTfhn%2BXWg5CEuJJfmgxHdUt2Xzalq%2BJcFgUJ13PGmBleGrzH4vPqc85kySkX0okWbD2NEp8EE0CxkuQrL4F1OGNGlNbWOKBYKVtbAn0uHnr3EUgp8CocTuy%2BD9Bn226Qlh%2BqkBDBLAk%2Bx07VrwOdJgTturi4yK%2FweLC4ForWwB%2Fw5fkfxH%2BQlqctP5YHByCcPb5DHebuamJEmfYskbauzB2Ut4nt8yg%2FTUSRcrfO%2BL7kVxQkWnsapGTGabV5S%2F%2BXGviLYlL6M7igNQvbEnqezyDglBrnBZDVZfDjlPfSS0omiML8zbgjLKCqqJCiT2FU9PlYil5Cxi%2BmMO272sXnhzI4XRh35WDMEOoQDMAiG69FSFWkS0UcvJ2DfMkNWxddvy%2FkLfI5KSHyGwzCBr4OoBjqwAYfNTMW23xV9UV1dwIR4d4gmE9b%2BhmLv%2BYTETjjNf8dN3Et5HmDCPnvSp%2BTEl0o42mfK7OrkNACpvYNxpB4BXYewAVrYSYvKJs56orWv0YoFtW%2B8FChsRuzp5a5FfrUdX6%2FBsNQEekm32YxXQU8NimdTp6SgOBo2jzcGbrSD2GIIoaU%2Bl25yE%2F7tjBNnfb1jJ0dynsrkdAtIKxuXjINboF8ScZ6q3LkR%2B8e5hmblqh94&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230912T210000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PL5VPEVCAF%2F20230912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c5cbbf59b74c4804669a8809b7f60349de93fbe23730c7e441a246f35b778a31)https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/638e5f8fa10ff/39593497?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1694574000000&X-Blackboard-Signature=lI4O08475l2U5SSVsrgkZfsuiASXF8E76N6GmEXyXeM%3D&X-Blackboard-Client-Id=306527&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27wire-ativ3-2.png&response-content-type=image%2Fpng&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLWVhc3QtMSJIMEYCIQCE93JZuufCco9XMVkWZNR2WYIxv%2FcdOEEItywfeJUmUAIhAOcv2K%2Fyv9F87DMGiZfdmoBdP9eBkz05xdArRAcDqOYjKrMFCB8QAxoMNjM1NTY3OTI0MTgzIgzXmc9Zm4c9G0JdwtIqkAX64TJwWZ47CLIY%2BG98omvjNdzgLNdT%2FNCaa3kUc%2FC9o2FD1nkMkHu%2FVnUHlTmkIOYZqBy%2BUm30kKWF3k0a3a2pCqXdkkycjrdDZM9N9IhkArn4cp7Vhfl3ao8ybxJZrHOU38mdMWgtXiDobE2R%2BXxBgBD273px8bU4Qmnuhjzgg9WuWCyp57chWdkMm%2Fet2SKwke1AkF95m6pIH124mNJ9Qm2Oty2h4a22B5SWf5m2GYoYOlSX9bNWaF1Y5mNd1lfLpHyMymaC7jV5iLAscXddzJXjyj7USQlwEA5b7JWLcr4kn7Xr8KWkyI8yp8BjAAmTU6dnY8YmzWHYSyyTF1wmbmGwyu4Fy0MqbKNIBfq0k%2FF2VCVxwhdTOR%2F6xxFZ4WJhjkfFtN4ttPnMzkvnkHFCFKJXpxfRQvFImWW8FV6ocAE%2BEtIxPZHeebb4S8q%2BsSA4B7ebZPwq8CpbEPBxNRfCzbrGf2DhTfhn%2BXWg5CEuJJfmgxHdUt2Xzalq%2BJcFgUJ13PGmBleGrzH4vPqc85kySkX0okWbD2NEp8EE0CxkuQrL4F1OGNGlNbWOKBYKVtbAn0uHnr3EUgp8CocTuy%2BD9Bn226Qlh%2BqkBDBLAk%2Bx07VrwOdJgTturi4yK%2FweLC4ForWwB%2Fw5fkfxH%2BQlqctP5YHByCcPb5DHebuamJEmfYskbauzB2Ut4nt8yg%2FTUSRcrfO%2BL7kVxQkWnsapGTGabV5S%2F%2BXGviLYlL6M7igNQvbEnqezyDglBrnBZDVZfDjlPfSS0omiML8zbgjLKCqqJCiT2FU9PlYil5Cxi%2BmMO272sXnhzI4XRh35WDMEOoQDMAiG69FSFWkS0UcvJ2DfMkNWxddvy%2FkLfI5KSHyGwzCBr4OoBjqwAYfNTMW23xV9UV1dwIR4d4gmE9b%2BhmLv%2BYTETjjNf8dN3Et5HmDCPnvSp%2BTEl0o42mfK7OrkNACpvYNxpB4BXYewAVrYSYvKJs56orWv0YoFtW%2B8FChsRuzp5a5FfrUdX6%2FBsNQEekm32YxXQU8NimdTp6SgOBo2jzcGbrSD2GIIoaU%2Bl25yE%2F7tjBNnfb1jJ0dynsrkdAtIKxuXjINboF8ScZ6q3LkR%2B8e5hmblqh94&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230912T210000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PL5VPEVCAF%2F20230912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c5cbbf59b74c4804669a8809b7f60349de93fbe23730c7e441a246f35b778a31)
-
-
- 
-Baseando-se nos wireframes, construa uma página HTML e programe os seguintes comportamentos:
-Ao clicar em Informar dados, caso o campo valor esteja em branco, deverá ser emitido um alerta ou ser mostrada na página uma mensagem informando que o campo deve ser preenchido.
-Ao clicar no botão Informar dados, tendo o item Pix selecionado, exibe-se um painel com as informações necessárias para Pix. Deve-se ainda mostrar o total aplicando 10% de desconto sobre o valor informado.
-Caso o item Cartão de crédito esteja selecionado, então mostra-se o formulário solicitando dados do cartão, que aplicará os seguintes comportamentos:
-Ao digitar no campo Número, a bandeira do cartão será definida pela inicial da numeração. Se iniciar com “1234”, será mostrado um ícone e, se iniciar com “4321”, será mostrado outro ícone à frente do campo (a escolha da imagem fica a seu critério).
-Ao digitar um valor que não inicie com “1234” nem com “4321”, deverá ser mostrada a mensagem “Número de cartão inválido”.
-Ao abrir o painel, deve-se calcular e mostrar os valores de parcelamento, considerando que:
-1 a 3 parcelas são sem juros
-4 parcelas implicam 5% de juros sobre o valor informado inicialmente
-5 parcelas implicam em 10% de juros sobre o valor informado inicialmente
-Ao selecionar uma opção no campo Parcelas, o valor Total abaixo do painel deve ser atualizado
-Ao clicar no botão Pagar, deve-se mostrar apenas uma mensagem de sucesso.
-Em nenhuma condição, ambos os painéis (Pix e Cartão de crédito) podem aparecer ao mesmo tempo.
+Crie as páginas com HTML5 e CSS3 correspondendo aos wireframes desenvolvidos para a proposta de site escolhida na Atividade 1. Faça conexões de hyperlinks quando eles se referirem a páginas solicitadas para criação; quando forem links apenas para compor o layout, use a propriedade “href='#'”.
  
 ### Entrega
-No espaço dedicado à entrega da atividade, envie um arquivo compactado (RAR, ZIP ou 7z) com os arquivos .html, .css e .js desenvolvidos.
+No espaço dedicado à entrega da atividade, envie um arquivo compactado (RAR, ZIP ou 7z) com os arquivos .html e .css desenvolvidos. Envie também os wireframes originais.
  
 ### Dica de leitura
 Para esta atividade, leia os seguintes materiais:
+Comunicação visual: tipografia, teoria da cor; Imagens vetoriais e bitmap: formatos e aplicações
+Estrutura semântica: linguagens de marcação de conteúdo (HTML) para aplicações web
 Linguagem de estilo CSS: conceito, seletores, combinação de seletores e propriedades
-Bibliotecas de front-end: tecnologias, aplicabilidade e jQuery
-Testes de página web: ferramentas de depuração
  
 ### Avaliação
-Nesta atividade, você será avaliado no indicador:
-Desenvolve comportamento dinâmico de interação com usuário de acordo com linguagem de script front-end e requisitos do sistema.
+Nesta atividade, você será avaliado nos indicadores:
+Desenvolve interfaces web por meio de linguagens de marcação de conteúdo atendendo aos padrões do W3C.
+Desenvolve estilo de página por meio de linguagens de estilo conforme layout.
