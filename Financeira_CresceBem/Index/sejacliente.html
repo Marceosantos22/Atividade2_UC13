@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CresceBem - Empréstimos</title>
+    <link rel="stylesheet" href="/Css/styleCliente.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/images/logoSemFundo.png"
+        width="48px"
+        height="80px"
+        class="logo"
+      />
+      <h1 class="titleEmprestimo">Financeira CresceBem - Nosso Cliente</h1>
+    </header>
+    <div class="container-one">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><img src="/images/icons8-bank-48.png" width="80px" height="80px"></li>
+          <li><a href="/Index/index.html">Página Inicial</a></li>
+          <li><a href="/Index/emprestimo.html">Empréstimos</a></li>
+          <li><a href="/Index/financiamento.html">Financiamento</a></li>
+          <li><a href="/Index/antecipacao.html">Antecipação FGTS</a></li>          
+          <li><a href="/Index/sejacliente.html">Seja nosso cliente</a></li>
+          <li>
+            <a href=".#"
+              ><img
+                class="nav-image"
+                src="/images/img-nav-1.png"
+                width="130px"
+                height="130px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <div class="bannerCliente">
+          <img
+            src="/images/BannerCliente.jpeg"
+            width="1000px"
+            height="300px"
+          />
+        </div>
+        <div class="formulario">
+          <form action="#" class="cadastroForm">
+            <h1 class="titleFormulario">Seja nosso Cliente</h1>
+
+            <div class="group">
+              <label for="tipoDeServico">Tipo de Serviço:</label>
+              <select id="tipoDeServico" name="tipoDeServico">
+                <option value="antecipacao">Antencipação</option>
+                <option value="consignado">Empréstimo Consignado</option>
+                <option value="pessoal">Empréstimo Pessoal</option>
+                <option value="financiamento">Financiamentos</option>
+              </select>
+
+              <div class="aposentado">
+                <label>É aposentado?</label>
+                <label for="aposentadoSim">Sim</label>
+                <input
+                  type="radio"
+                  id="aposentadoSim"
+                  name="aposentado"
+                  value="sim"
+                />
+
+                <label for="aposentadoNao">Não</label>
+                <input
+                  type="radio"
+                  id="aposentadoNao"
+                  name="aposentado"
+                  value="nao"
+                />
+              </div>
+            </div>
+
+            <div class="group1">
+              <label class="formNome" for="name">Nome:</label>
+              <input class="inputNome" type="text" name="name" id="name" />
+
+              <label for="telefone">Telefone:</label>
+              <input
+                class="inputTelefone"
+                type="text"
+                name="telefone"
+                id="telefone"
+              />
+            </div>
+            <div class="group2">
+              <label for="email">Email:</label>
+              <input class="inputEmail" type="email" name="email" id="email" />
+            </div>
+            <button>Cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="rodape">
+      <h2 class="titleRodape">Sobre Nós</h2>
+      <p class="textoNos">
+        A Financeira <strong>CresceBem</strong> é uma empresa que atua no
+        mercado de empréstimos e antecipação de recebíveis desde 2010. Com o
+        objetivo de oferecer as melhores soluções financeiras para seus
+        clientes, a Financeira <strong>CresceBem</strong> conta com uma equipe
+        de profissionais especializados e experientes, que buscam sempre a
+        excelência no atendimento e a satisfação de seus clientes.
+      </p>
+      <h2 class="titleRodape">Rede Sociais</h2>
+      <div class="social-icons">
+        <a href="#">
+          <img
+            src="/images/icons8-email-48.png"
+            alt="E-mail"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="/images/icons8-instagram-48.png"
+            alt="Instagram"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="/images/icons8-facebook-48.png"
+            alt="Facebook"
+            height="30px"
+            width="30px"
+          />
+        </a>
+      </div>
+      <div class="producao">
+        <h4>
+          Todos os direitos reservados © Desenvolvido por: Marcelo Oliveira
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>

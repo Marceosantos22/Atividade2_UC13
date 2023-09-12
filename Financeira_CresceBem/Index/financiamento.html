@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CresceBem - Financiamento</title>
+    <link rel="stylesheet" href="/Css/styleFinanciamento.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/images/logoSemFundo.png"
+        width="48px"
+        height="80px"
+        class="logo"
+      />
+      <h1 class="titleEmprestimo">Financeira CresceBem - Financiamento</h1>
+    </header>
+    <div class="container-one">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><img src="/images/icons8-bank-48.png" width="80px" height="80px"></li>
+          <li><a href="/Index/index.html">Página Inicial</a></li>
+          <li><a href="/Index/emprestimo.html">Empréstimos</a></li>
+          <li><a href="/Index/financiamento.html">Financiamento</a></li>
+          <li><a href="/Index/antecipacao.html">Antecipação FGTS</a></li>          
+          <li><a href="/Index/sejacliente.html">Seja nosso cliente</a></li>
+          <li>
+            <a href=".#"
+              ><img
+                class="nav-image"
+                src="/images/img-nav-1.png"
+                width="130px"
+                height="130px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <form action="#" class="formularioEmprestimo">
+          <p class="titleFormulario">Financiamento</p>
+
+          <label for="tipoEmprestimo">Tipo de Financiamento:</label>
+          <select id="tipoEmprestimo" name="tipoEmprestimo">
+            <option value="imovel">Imóvel</option>
+            <option value="veículo">Veículo</option>
+            <option value="veículo">Outros</option>
+          </select>
+
+          <label for="valorBem">Valor do Bem</label>
+          <input type="number" id="valorBem" name="valorBem" />
+
+          <label for="valorEntrada">Valor de Entrada</label>
+          <input type="number" id="valorEntrada" name="valorEntrada" />
+
+          <label for="mesesParcelamento"
+            >Quantidade de Parcelas:</label
+          >
+          <input
+            type="number"
+            id="mesesParcelamento"
+            name="mesesParcelamento"
+            min="1"
+            max="60"
+            step="6"
+          />
+
+          <button class="buttonSimular" type="submit">Simular</button>
+          
+          <p class="result">
+            <br>
+            <hr>
+            <span class="result-title">Valor Parcelas R$: </span>
+            <span class="result-value"></span>
+
+            <button class="buttonNossoCliente" type="submit">Seja nosso Cliente</button>
+          </p>
+        </form>
+      </div>
+    </div>
+    <h1 class="titlePerguntas">Perguntas frequentes</h1>
+    <div class="container-two">
+      <ul class="faq-list">
+        <li class="faq-item">
+          <div class="question">O que é a Antecipação Saque Aniversário FGTS?</div>
+          <div class="answer">
+            É um empréstimo que permite a antecipação do valor de até 5 (cinco) parcelas de Saque Aniversário
+            do FGTS às quais o cliente tem direito de sacar anualmente no mês do seu aniversário.
+            Para ter direito ao Saque Aniversário, é necessário que o trabalhador faça
+            a opção pela modalidade Saque Aniversário através do App FGTS, no site fgts.caixa.gov.br, Internet Banking CAIXA ou App CAIXA.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="question">Quem pode contratar a Antecipação do Saque Aniversário?</div>
+          <div class="answer">
+            Todo cliente com conta vinculada de FGTS, ativa ou inativa,
+            que tenha aderido à modalidade Saque Aniversário através de um dos canais
+            disponibilizados pela CAIXA, possua conta corrente na CAIXA e não possua empréstimo em atraso com a CAIXA.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="question">
+            Como optar pela Modalidade de Saque Aniversário FGTS?
+          </div>
+          <div class="answer">
+            
+            O cliente poderá optar pelo Saque Aniversário, pelos seguintes canais:
+
+            Site do FGTS na CAIXA, fgts.caixa.gov.br; ou
+            Aplicativo do FGTS, que você pode baixar na loja de aplicativos do seu celular); ou
+            No Internet Banking CAIXA.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="question">
+            O valor do empréstimo Antecipação Saque Aniversário pode ser depositado na conta Poupança Social Digital da CAIXA?
+          </div>
+          <div class="answer">
+            Não. Para receber o crédito da Antecipação Saque Aniversário, necessário ter uma conta corrente (001).
+          </div>
+        
+        </li>
+      </ul>
+    </div>
+    <footer class="rodape">
+      <h2 class="titleRodape">Sobre Nós</h2>
+      <p class="textoNos">
+        A Financeira <strong>CresceBem</strong> é uma empresa que atua no
+        mercado de empréstimos e antecipação de recebíveis desde 2010. Com o
+        objetivo de oferecer as melhores soluções financeiras para seus
+        clientes, a Financeira <strong>CresceBem</strong> conta com uma equipe
+        de profissionais especializados e experientes, que buscam sempre a
+        excelência no atendimento e a satisfação de seus clientes.
+      </p>
+      <h2 class="titleRodape">Rede Sociais</h2>
+      <div class="social-icons">
+        <a href="#">
+          <img
+            src="/images/icons8-email-48.png"
+            alt="E-mail"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="/images/icons8-instagram-48.png"
+            alt="Instagram"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="/images/icons8-facebook-48.png"
+            alt="Facebook"
+            height="30px"
+            width="30px"
+          />
+        </a>
+      </div>
+      <div class="producao">
+        <h4>
+          Todos os direitos reservados © Desenvolvido por: Marcelo Oliveira
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>
