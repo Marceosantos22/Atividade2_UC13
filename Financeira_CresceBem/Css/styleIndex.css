@@ -314,3 +314,144 @@ hr {
 
 
 }
+
+@media (max-width: 768px) {
+
+  .header {
+
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+  }
+
+
+  .titleEmprestimo {
+
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  .container-one {
+    flex-direction: column;
+
+  }
+
+  .imageNav {
+    display: none;
+
+
+  }
+
+  .navigation {
+
+    flex-direction: row;
+    row-gap: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: auto;
+    height: 210px;
+  }
+
+  .nav-list {
+
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Permitir que os itens quebrem para a próxima linha */
+    gap: 2px;
+    height: auto;
+    width: auto;
+    padding: 10px
+  }
+
+  li {
+    flex-direction: row;
+
+    height: 5px;
+    width: 10px;
+    flex-basis: calc(40% - 30px);
+    /* 33.33% é aproximadamente 1/3 da largura do contêiner */
+    /* Outros estilos para seus itens */
+  }
+
+  .banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px 2px 2px 2px;
+    height: auto;
+    width: auto;
+    margin-top: 1px;
+  }
+
+  .banner img {
+
+    width: 80%;
+    height: 50%;
+
+  }
+
+  .card-content {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .titleContato {
+    width: 70%;
+    font-size: 15px;
+
+  }
+
+  .containerContato {
+
+    width: 70%;
+    height: 80%;
+    flex-direction: row;
+
+
+  }
+
+  .containerContato form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .rodape {
+    width: 70%;
+
+  }
+
+  .titleRodape {
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .textoNos {
+    color: white;
+    font-size: 13px;
+    width: 535px;
+  }
+
+
+
+
+
+}
